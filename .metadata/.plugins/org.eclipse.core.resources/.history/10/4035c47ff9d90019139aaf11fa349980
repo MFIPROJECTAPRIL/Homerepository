@@ -1,0 +1,25 @@
+package com.crts.app.mfi.main.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class LedgerDetails {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	
+	private String loanNo;
+	private String emiDueDate;
+	private String emiPaidDate;
+	private float emiAmount;
+	private float emiPaidAmount;
+	private float balanceAmount;
+	private float closingAmount;
+	
+	
+	
+}
