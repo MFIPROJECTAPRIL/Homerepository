@@ -1,0 +1,22 @@
+package com.crts.app.mfi.main.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.crts.app.mfi.main.model.Student;
+import com.crts.app.mfi.main.repository.Istudent;
+
+@Service
+public class ServiceImple implements Iservice {
+
+	@Autowired
+	Istudent is;
+	
+	@Override
+	public void saveData(Student s) {
+	
+		is.save(s);
+		
+	}
+
+}

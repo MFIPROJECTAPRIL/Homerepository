@@ -1,0 +1,9 @@
+package com.crts.app.mfi.main.repository;
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface IpaymentAcknowlegeLetterRepository extends PagingAndSortingRepository<, ID> {
+
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\MicroFinanceProject\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3314916140.index
+3539532313.index
+2264224967.index
+3015418424.index
+492022968.index
+1420991316.index
