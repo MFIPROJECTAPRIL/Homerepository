@@ -1,0 +1,10 @@
+package com.ACE.Model;
+
+public class Status 
+{
+	private int statusId;
+	private String statusCode;
+	private String statusDescription;
+	
+
+}

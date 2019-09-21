@@ -1,0 +1,14 @@
+package com.ACE.Model;
+
+public class Branch 
+{
+	private int branchId;
+	private  String branchName;
+	private String branchAddress;
+	private int branchCode;
+	private int status;
+	private long branchContactNo;
+	private String branchEmailId;
+	
+
+}

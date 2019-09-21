@@ -1,0 +1,42 @@
+package com.ACE.Model;
+
+import javax.persistence.ManyToOne;
+
+public class Taluka 
+{
+	private int talukaId;
+	private String talukaName;
+	
+	@ManyToOne
+	private District district;
+	
+	private int punCode;
+	
+
+	public int getTalukaId() {
+		return talukaId;
+	}
+
+	public void setTalukaId(int talukaId) {
+		this.talukaId = talukaId;
+	}
+
+	public String getTalukaName() {
+		return talukaName;
+	}
+
+	public void setTalukaName(String talukaName) {
+		this.talukaName = talukaName;
+	}
+
+	public District getDistrict() {
+		return district;
+	}
+
+	public void setDistrict(District district) {
+		this.district = district;
+	}
+	
+	
+
+}

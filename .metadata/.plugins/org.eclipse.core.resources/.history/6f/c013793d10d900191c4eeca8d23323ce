@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MFI_EUREKA_ZUUL">
+        <property name="context-root" value="MFI_EUREKA_ZUUL"/>
+        <property name="java-output-path" value="/MFI_EUREKA_ZUUL/target/classes"/>
+    </wb-module>
+</project-modules>

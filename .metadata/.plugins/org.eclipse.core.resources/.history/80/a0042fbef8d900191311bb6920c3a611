@@ -1,0 +1,10 @@
+package com.crts.app.mfi.main.repository;
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+import com.crts.app.mfi.main.model.User;
+
+public interface IUserRepository extends PagingAndSortingRepository<User, Integer>
+{
+
+}

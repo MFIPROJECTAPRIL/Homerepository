@@ -1,0 +1,9 @@
+package com.crts.app.mfi.main.repository;
+
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+public interface IRoleRepository extends PagingAndSortingRepository<Role, Integer>
+{
+	
+
+}

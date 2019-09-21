@@ -1,0 +1,26 @@
+package com.ACE.Model;
+
+import javax.persistence.OneToOne;
+
+public class User 
+{
+	private int userId;
+	private String name;
+	private String address;
+	private String userCode;
+	private int userStatus;
+	private long mobileNo;
+	private String date;
+	private String emailId;
+	
+	
+	private String username;
+	private String password;
+	
+	@OneToOne
+	private Role role;
+	
+	
+	
+
+}

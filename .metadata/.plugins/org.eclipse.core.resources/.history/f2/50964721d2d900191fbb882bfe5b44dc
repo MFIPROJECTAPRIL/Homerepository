@@ -1,0 +1,12 @@
+package com.ACE.Model;
+
+public class State 
+{
+	private int stateId;
+	private String stateName;
+	
+	private int stateCode;
+	private int status;
+	
+
+}

@@ -1,0 +1,48 @@
+package com.ACE.Model;
+
+import javax.persistence.ManyToOne;
+
+public class District 
+{
+	private int districtId;
+	private String districtName;
+	private int districtStatus;
+	
+	@ManyToOne
+	private State state;
+
+	public int getDistrictId() {
+		return districtId;
+	}
+
+	public void setDistrictId(int districtId) {
+		this.districtId = districtId;
+	}
+
+	public String getDistrictName() {
+		return districtName;
+	}
+
+	public void setDistrictName(String districtName) {
+		this.districtName = districtName;
+	}
+
+	public int getDistrictStatus() {
+		return districtStatus;
+	}
+
+	public void setDistrictStatus(int districtStatus) {
+		this.districtStatus = districtStatus;
+	}
+
+	public State getState() {
+		return state;
+	}
+
+	public void setState(State state) {
+		this.state = state;
+	}
+	
+	
+
+}

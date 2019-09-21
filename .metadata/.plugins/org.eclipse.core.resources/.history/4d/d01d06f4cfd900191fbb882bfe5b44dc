@@ -1,0 +1,11 @@
+package com.ACE.Model;
+
+public class Branch 
+{
+	private int branchId;
+	 String branchName;
+	private String branchAddress;
+	private int branchCode;
+	publ
+
+}

@@ -1,0 +1,16 @@
+package com.ACE.Model;
+
+import javax.persistence.ManyToOne;
+
+public class District 
+{
+	private int districtId;
+	private String districtName;
+	private int districtStatus;
+	
+	@ManyToOne
+	private State state;
+	
+	
+
+}

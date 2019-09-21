@@ -1,0 +1,11 @@
+package com.crts.app.mfi.main.service;
+
+import com.crts.app.mfi.main.model.Branch;
+import com.crts.app.mfi.main.model.District;
+
+public interface Iservice 
+{
+	public Branch insertBranch();
+	public District insertDistrict();
+
+}

@@ -1,0 +1,7 @@
+package com.crts.app.mfi.main.repository;
+
+public interface IRoleRepository 
+{
+	
+
+}
