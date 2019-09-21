@@ -1,9 +1,0 @@
-package com.crts.app.mfi.main.repository;
-
-import org.springframework.data.repository.PagingAndSortingRepository;
-
-public interface IStateRepository extends PagingAndSortingRepository<State, Integer>
-{
-	
-
-}
