@@ -1,9 +1,0 @@
-package com.crts.app.mfi.main.repository;
-
-import org.springframework.data.repository.PagingAndSortingRepository;
-
-import com.crts.app.mfi.main.model.LoanDisbursementDetails;
-
-public interface IloanDisbursementRepository extends PagingAndSortingRepository<LoanDisbursementDetails, Integer> {
-
-}
